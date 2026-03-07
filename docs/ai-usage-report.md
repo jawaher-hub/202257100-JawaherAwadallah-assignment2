@@ -21,5 +21,7 @@
 **AI Assistance:** I asked for a snippet to save the theme preference to `localStorage` and retrieve it on page load.
 **My Contribution:** I integrated this into the existing theme toggle code and ensured the button icon updates correctly based on the saved state.
 
+### 4. Documentation
+**AI Assistance:** document formating and flow suggestions.
 ## Reflection
 Using AI helped me implement features like filtering and local storage much and understood how to implement the logic correctly.
