@@ -21,6 +21,7 @@
 
     <section id="about">
         <h2>About Me</h2>
+        <div id="greeting-area"></div>
         <p><strong>Future Cybersecurity Specialist</strong></p>
         <p>
             I am Jawaher, a junior Computer Science student passionate about coding and exploring diverse tech fields. Currently focusing on cybersecurity and building strong foundations in secure system design. Interested in creating secure systems that make a big impact.
@@ -29,19 +30,24 @@
 
     <section id="projects">
         <h2>Projects</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="tech">Technical</button>
+        </div>
         <div class="project-list">
-            <div class="project">
+            <div class="project" data-category="design">
                 <img src="assets/images/project1.jpg" alt="Project 1">
                 <h3>KFUPM Events (System Design & UI/UX Prototype)</h3>
                 <p>Managed the full software development lifecycle planning for a campus-wide events platform. This included eliciting full system requirements, designing complex Use Case diagrams and system workflows, and creating high-fidelity interactive prototypes in Figma to optimize user experience.</p>
             </div>
 
-	<div class="project">
-            <img src="assets/images/project2.jpg" alt="Project 2">
-            <h3>Wujha (Entrepreneurship & Product Design)</h3>
-            <p>Developed a comprehensive business and technical model for a tourism application aimed at enhancing the travel experience in Saudi Arabia. Focused on solving language barriers and route planning through integrated technology solutions, business model canvas design, and market analysis.</p>
-        </div>
-     </div>
+            <div class="project" data-category="tech">
+                    <img src="assets/images/project2.jpg" alt="Project 2">
+                    <h3>Wujha (Entrepreneurship & Product Design)</h3>
+                    <p>Developed a comprehensive business and technical model for a tourism application aimed at enhancing the travel experience in Saudi Arabia. Focused on solving language barriers and route planning through integrated technology solutions, business model canvas design, and market analysis.</p>
+                </div>
+            </div>
     </section>
 
     <section id="contact">
@@ -57,6 +63,7 @@
             <textarea id="message" name="message" required></textarea><br><br>
 
             <button type="submit">Send Message</button>
+            <p id="form-status" class="status-message"></p>
         </form>
     </section>
     <footer>
