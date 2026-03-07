@@ -43,7 +43,7 @@ Example:
 
 ## 2. CSS 
 
-- **Transitions:** Interactive elements such as buttons and project cards use `transition: 0.3s` to create smooth visual effects.
+- **Transitions:** Interactive elements such as buttons and project cards use `transition: 0.2s` to create smooth visual effects.
 
 ---
 
