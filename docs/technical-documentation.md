@@ -53,8 +53,14 @@ Example:
 - **Performance:** No external libraries (such as Bootstrap) were used, resulting in a lightweight page.
 
 ---
-
-## 4. Conclusion
+## 4. Challenges
+- One challenge was making sure that the theme toggle updated the button emoji correctly alongside the CSS class. This was resolved by using a conditional check within the event listener to sync 'localStorage' and the 'textContent' property.
+---
+## 5. Benefits
+- **Enhanced User Retention**: Implementing LocalStorage for theme persistence and the "Welcome Back .." greeting creates a personalized experience. Users don't have to readjust their preferences (like Dark Mode) every time they visit.
+- **Effective Feedback**: Simulating a server response with a "Sending..." state and a success message ensures the user is never left wondering if their form submission worked or not. This directly addresses the need for clear functional interaction.
+---
+## 5. Conclusion
 
 This project successfully integrates several core web development concepts:
 
