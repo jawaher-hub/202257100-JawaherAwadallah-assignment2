@@ -25,3 +25,5 @@
 **AI Assistance:** document formating and flow suggestions.
 ## Reflection
 Using AI helped me implement features like filtering and local storage much and understood how to implement the logic correctly.
+While AI provided the core logic I manually adapted it to use data attributes ensuring a clean separation between my HTML structure and JavaScript behavior.
+I learned how to manage persistent state. This involved not just saving a string, but creating a logic flow that checks for existing data immediately to provide a ideal user experience.
