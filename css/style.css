@@ -22,6 +22,7 @@ header {
     color: white;
     padding: 20px 0;
     text-align: center;
+    border-radius: 1%;
 }
 nav {
     display: flex;
@@ -74,10 +75,12 @@ section {
 }
 /* Greeting */
 #greeting-area {
-    font-size: 1.2em;
-    color: #052e5c;
+    font-size: 1.3em;
+    color: #6d5da8;
     margin-bottom: 15px;
     font-weight: bold;
+    text-align: center;
+    padding-top: 3%;
 }
 /* Filter buttons */
 .filter-buttons {
