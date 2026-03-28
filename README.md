@@ -11,8 +11,7 @@ This is an interactive portfolio website showcasing my projects, and contact inf
 ## Setup Instructions
 1. Clone this repository
 2. Open `index.html` in a web browser
-3. No additional setup required
 
 ## AI Tools Used
 - ChatGPT - Code generation
-- Gemini - Code completion and suggestions
+- Gemini - improvements suggestions
